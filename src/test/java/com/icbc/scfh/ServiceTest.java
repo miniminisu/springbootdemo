@@ -18,4 +18,8 @@ public class ServiceTest {
         System.out.println(count);
     }
 
+    @Test
+    public void testListAllByName(){
+        userService.listAllByName("Jack");
+    }
 }
